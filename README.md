@@ -60,6 +60,8 @@ Python：
 ADB：
 ![image](https://user-images.githubusercontent.com/56485632/148673809-04b43095-92de-42fb-a61d-2b5fd470511a.png)
 
-4.打开模拟器进入游戏。把所有的图片和compass.py放到一个文件夹里面，运行compass.py，具体操作见视频
+4.打开模拟器进入游戏。把所有的图片和compass.py放到一个文件夹里面，运行compass.py
+
+*具体操作流程参考视频https://www.bilibili.com/video/BV1dP4y1E7cc/*
 
 
