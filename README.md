@@ -12,9 +12,9 @@
 
 ***长期挂机可能有封号风险，如有出现后果自负***
 
-***脚本粗糙，很容易受到各种因素干扰而中断，后续优化随缘更新***
+***脚本粗糙，会受到各种因素干扰而中断，后续优化随缘更新***
 
-## 2.前期工作
+## 2.环境配置
 
 1.模拟器(我使用的雷电模拟器)
 百度，有手就行
@@ -22,11 +22,29 @@
 2.Python环境(我的是Python 3.9.7)
 第一次安装使用Python可以参考https://www.runoob.com/python3/python3-install.html
 
-3.Android测试工具ADB
+3.下载opencv-python依赖包
+
+可以参考https://www.cnblogs.com/zuiyixin/articles/15563466.html
+
+新版python自带pip，如果第2步完成可以在DOS界面直接输入*pip install opencv-python*
+
+(这步对用户很不友好，但是因为没用过python代码打包，这个应该由我解决的问题交给了你们捏。。。)
+
+4.Android测试工具ADB
 工具压缩包在上一级目录有
 配置参考https://jingyan.baidu.com/article/22fe7cedf67e353002617f25.html
 
-## 3.使用方式
+## 参数设置及注意事项
+
+为使得图像识别正确，脚本正常运行，请保证：
+
+1.模拟器分辨率**1080x1920**，dpi为**280**(dpi影响不大)
+
+2.康帕斯游戏画质设置为**4**
+
+3.晶要满的（如果晶没满需要注释掉一段代码
+
+## 4.使用流程
 
 1.下载除了Readme.md之外的所有文件
 
@@ -44,10 +62,4 @@ ADB：
 
 4.打开模拟器进入游戏。把所有的图片和compass.py放到一个文件夹里面，运行compass.py，具体操作见视频
 
-## 4.注意事项
 
-python需要下载opencv-python依赖包
-
-可以参考https://www.cnblogs.com/zuiyixin/articles/15563466.html
-
-(比较麻烦，但是因为没用过python代码打包，这个应该由我解决的问题交给了用户。。。)
